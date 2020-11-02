@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainEmail">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtEMAIL"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="274dp"
+        android:autofillHints=""
+        android:ems="13"
+        android:hint="Digite aqui um endereço de Email"
+        android:inputType="text|textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnEMAIL"
+        android:textColor="@android:color/white"
+        android:text="ENVIAR"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    </LinearLayout>
